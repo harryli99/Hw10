@@ -1,0 +1,120 @@
+body {
+    background-color: #e2e2e2;
+
+}
+
+h1, h2, h4 {
+    color: #659dbd;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-brand {
+    background-color: #33807c;
+    color: white;
+    font-size: 20pt;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(48, 46, 46);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    opacity: 0.6;
+}
+
+.content-background {
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    padding: 5% ;
+    align-items: center;
+}
+
+.content-background p {
+    padding-top: 10px;
+    font-size: 12pt;
+    line-height: 30px;
+    color: rgb(111, 122, 133);
+  }
+
+img.text-wrapped {
+    float: left;
+    max-width: 45%;
+    height: auto;
+}
+
+img.large-image {
+    width: 100%;
+    height: auto;
+}
+
+img.custom-thumbnail {
+    width: 140px;
+   height: 140px;
+   padding: 2%;
+}
+
+img.custom-thumbnail:hover{
+    opacity: 0.6;
+    border: 3px solid #33807c;
+}
+
+.active {
+    padding: 5px;
+    border: 5px solid #33807c;
+}
+
+.centered {
+    align-items: center;
+    text-align: center;
+}
+
+table, th {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    body{
+        background-color: white;
+    }
+    .navbar{
+        background-color:#33807c;
+    }
+    .navbar-default .navbar-nav>li>a{
+        color:white;
+    }
+    .navbar-default .navbar-brand:hover{
+        color: white;
+        opacity: 0.6;
+    }  
+    .navbar-default .navbar-nav>li>a:hover{
+        color: white;
+        opacity: 0.6;
+    }
+    ul.dropdown-menu {
+        position: static;
+        width: 100%;
+        border-radius:0;
+        margin-bottom: 2%;
+      }
+    .content-background{
+        margin:0;
+        padding:0;
+    }
+}
+
+@media (max-width: 600px) {
+    img.text-wrapped {
+        float: none;
+        max-width: 100%;
+        height: auto;
+    }
+}
