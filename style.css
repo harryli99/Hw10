@@ -100,7 +100,7 @@ table, th {
         opacity: 0.6;
     }
     ul.dropdown-menu {
-        position: static;
+        position: relative;
         width: 100%;
         border-radius:0;
         margin-bottom: 2%;
