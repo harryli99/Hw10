@@ -109,6 +109,9 @@ table, th {
         margin:0;
         padding:0;
     }
+    .phone-img{
+        max-width: 60%;
+    }
 }
 
 @media (max-width: 600px) {
