@@ -88,12 +88,17 @@ table, th {
     .navbar{
         background-color:#33807c;
     }
-    .navbar-default .navbar-nav>li>a, .navbar-brand{
+    .navbar-default .navbar-nav>li>a{
         color:white;
     }
-    .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a:hover{
+    .navbar-default .navbar-brand:hover{
+        color: white;
         opacity: 0.6;
     }  
+    .navbar-default .navbar-nav>li>a:hover{
+        color: white;
+        opacity: 0.6;
+    }
     ul.dropdown-menu {
         position: relative;
         width: 100%;
